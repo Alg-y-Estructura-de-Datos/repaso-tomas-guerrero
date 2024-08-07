@@ -6,10 +6,11 @@ bool marcarAsiento(bool asiento[][10], int, int);
 int main()
 {
 
+        cout << "Examen Final Prog 3" << endl;
+
     const int asientos = 10;
     int fila, columna;
     bool teatro[asientos][asientos] = {false};
-    cout << "Examen Final Prog 3" << endl;
 
     cout << " Elija la fila del asiento que desea: ";
     cin >> fila;
